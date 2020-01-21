@@ -1,3 +1,13 @@
+# From https://github.com/richelbilderbeek/pirouette_article/issues/57
+#
+# Write script that shows the true and twin error for Yule
+# tree and Yule tree prior
+#
+# The only difference with
+# https://github.com/richelbilderbeek/pirouette_example_3
+# is that the twin tree must also be Yule (in the other
+# example, the twin tree is BD)
+#
 suppressMessages(library(pirouette))
 suppressMessages(library(ggplot2))
 
@@ -45,7 +55,8 @@ if (is_on_travis()) {
 
 pir_params <- create_pir_params(
   alignment_params = alignment_params,
-  experiments = experiments
+  experiments = experiments,
+  twinning_params = create_twinning_params(sim_twin_tree_fun = create_sim_yule_twin_tree_fun())
 )
 
 rm_pir_param_files(pir_params)
