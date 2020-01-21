@@ -6,14 +6,14 @@
   \hline
 parameter & ESS \\ 
   \hline
-posterior & 9952 \\ 
-  likelihood & 9973 \\ 
-  prior & 9831 \\ 
-  treeLikelihood & 9973 \\ 
-  TreeHeight & 9351 \\ 
-  YuleModel & 9831 \\ 
+posterior & 9941 \\ 
+  likelihood & 9991 \\ 
+  prior & 10001 \\ 
+  treeLikelihood & 9991 \\ 
+  TreeHeight & 10001 \\ 
+  YuleModel & 10001 \\ 
   birthRate & 10001 \\ 
    \hline
 \end{tabular}
-\caption{ESSes for generative model} 
+\caption{ESSes for generative model, twin tree} 
 \end{table}
