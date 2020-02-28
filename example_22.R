@@ -9,7 +9,6 @@
 # example, the twin tree is BD)
 #
 suppressMessages(library(pirouette))
-suppressMessages(library(ggplot2))
 
 ################################################################################
 # Constants
