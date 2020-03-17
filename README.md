@@ -10,5 +10,13 @@ that shows the true and twin error for a Yule tree when assuming a Yule tree pri
 
 ## Results
 
-![](example_22_314/errors.png)
+![](example_22/errors.png)
+
+### Individual results
+
+![](example_22/314/errors.png)
+![](example_22/315/errors.png)
+![](example_22/316/errors.png)
+![](example_22/317/errors.png)
+![](example_22/318/errors.png)
 
