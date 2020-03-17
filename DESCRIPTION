@@ -1,6 +1,6 @@
-Package: PirouetteExample22
+Package: pirex22
 Type: Package
-Title: Pirouette Example Twenty Two
+Title: Pirouette Example Twenty-two
 Version: 1.1
 Authors@R: c(
   person("Richel", "Bilderbeek", email = "richel@richelbilderbeek.nl", role = c("aut", "cre"), comment = c(ORCID = "0000-0003-1107-7049")))
