@@ -10,6 +10,7 @@
 ^NEWS\.md$
 ^appveyor\.yml$
 ^example_22\.log$
+^example_22\.R$
 ^example_22$
 ^LICENSE$
 ^\.github$
