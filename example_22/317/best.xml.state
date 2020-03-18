@@ -1,0 +1,18 @@
+<itsabeastystatewerein version='2.0' sample='10000000'>
+<statenode id='Tree.t:alignment'>((((0:0.106419341365787,5:0.106419341365787)6:0.2535106603925426,4:0.3599300017583296)8:0.06000676799485544,1:0.41993676975318506)9:0.6649533735913336,(2:0.8870491836293655,3:0.8870491836293655)7:0.19784095971515314)10:0.0</statenode>
+<statenode id='BDBirthRate.t:alignment'>BDBirthRate.t:alignment[1 1] (0.0,10000.0): 1.9582320552405508 </statenode>
+<statenode id='BDDeathRate.t:alignment'>BDDeathRate.t:alignment[1 1] (0.0,1.0): 0.6198433246024517 </statenode>
+</itsabeastystatewerein>
+<!--
+{"operators":[
+{"id":"BirthRateScaler.t:alignment","p":0.19302415949483245,"accept":108409,"reject":275168,"acceptFC":107417,"rejectFC":274986,"rejectIv":0,"rejectOp":0},
+{"id":"DeathRateScaler.t:alignment","p":0.11673099472907669,"accept":82713,"reject":303011,"acceptFC":81788,"rejectFC":302886,"rejectIv":190607,"rejectOp":190607},
+{"id":"BirthDeathTreeScaler.t:alignment","p":0.773240685871909,"accept":73078,"reject":311942,"acceptFC":72991,"rejectFC":310869,"rejectIv":0,"rejectOp":0},
+{"id":"BirthDeathTreeRootScaler.t:alignment","p":0.6714990945413473,"accept":65481,"reject":319217,"acceptFC":65359,"rejectFC":318225,"rejectIv":116875,"rejectOp":116875},
+{"id":"BirthDeathUniformOperator.t:alignment","p":"NaN","accept":502706,"reject":3343748,"acceptFC":501265,"rejectFC":3334241,"rejectIv":0,"rejectOp":0},
+{"id":"BirthDeathSubtreeSlide.t:alignment","p":0.3233476916139891,"accept":240868,"reject":1683106,"acceptFC":240603,"rejectFC":1677866,"rejectIv":416191,"rejectOp":416191},
+{"id":"BirthDeathNarrow.t:alignment","p":"NaN","accept":397428,"reject":1523946,"acceptFC":396310,"rejectFC":1519517,"rejectIv":0,"rejectOp":0},
+{"id":"BirthDeathWide.t:alignment","p":"NaN","accept":13899,"reject":371301,"acceptFC":13847,"rejectFC":370232,"rejectIv":213709,"rejectOp":213709},
+{"id":"BirthDeathWilsonBalding.t:alignment","p":"NaN","accept":2044,"reject":381936,"acceptFC":2036,"rejectFC":380864,"rejectIv":189966,"rejectOp":189966}
+]}
+-->
