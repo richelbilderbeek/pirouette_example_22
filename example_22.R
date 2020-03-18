@@ -67,3 +67,4 @@ for (i in seq_along(pir_outs)) {
     folder_name = dirname(pir_paramses[[i]]$alignment_params$fasta_filename)
   )
 }
+
