@@ -19,7 +19,7 @@ is_testing <- is_on_ci()
 example_no <- 22
 rng_seed <- 314
 folder_name <- paste0("example_", example_no)
-n_phylogenies <- 5 # Number of replicates
+n_phylogenies <- 10 # Number of replicates
 if (is_testing) {
   n_phylogenies <- 2
 }
